@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "watch": "node-sass -w scss -o css"
+    "scss": "node-sass -w scss -o css --recursive"
   },
   "repository": {
     "url": "https://github.com/kratis9/Resturant-Georgia-Sass"
