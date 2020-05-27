@@ -1,0 +1,17 @@
+{
+  "name": "resturant-georgia",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "watch": "node-sass -w scss -o css"
+  },
+  "repository": {
+    "url": "https://github.com/kratis9/Resturant-Georgia-Sass"
+  },
+  "author": "krati",
+  "license": "ISC",
+  "dependencies": {
+    "node-sass": "^4.14.1"
+  }
+}
