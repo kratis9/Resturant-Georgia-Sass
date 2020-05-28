@@ -6,6 +6,7 @@
     border: 3px solid $color-primary;
     border-radius: 50%;
     @include flexLayout;
+    margin-right: 20px;
 }
 
 .main-name {

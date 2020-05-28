@@ -14,7 +14,8 @@ body {
   border-radius: 50%;
   display: flex;
   justify-content: center;
-  align-items: center; }
+  align-items: center;
+  margin-right: 20px; }
 
 .main-name {
   font-family: "Nunito", sans-serif, cursive;
@@ -43,6 +44,5 @@ body {
     top: 15%;
     left: 50%;
     transform: translate(-50%, -50%);
-    color: #fff;
     display: flex;
     align-items: center; }
