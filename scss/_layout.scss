@@ -11,6 +11,8 @@
     }
 
     &-banner {
+        text-align: center;
+        color: #fff;
         @include centering(50%);
     }
 
