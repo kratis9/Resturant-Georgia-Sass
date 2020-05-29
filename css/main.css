@@ -54,7 +54,12 @@ body {
   font-family: "Josefin Sans", sans-serif;
   font-size: 14px;
   text-transform: uppercase;
-  letter-spacing: 1px; }
+  letter-spacing: 1px;
+  color: #d3ab55;
+  background-color: transparent;
+  border: 1px solid #d3ab55;
+  outline: none;
+  cursor: pointer; }
 
 .header {
   width: 100%;
