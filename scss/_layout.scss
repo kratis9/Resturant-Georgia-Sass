@@ -20,6 +20,8 @@
     height: 90vh;
     display: flex;
     align-items: center;
+    margin-bottom: 10%;
+    margin-top: 5%;
 
     &-left {
         width: 40%;
@@ -61,5 +63,12 @@
                 padding-left: 50px;
             }
         }
+    }
+}
+
+.gallery {
+    .cards-wrapper {
+        display: flex;
+        flex-wrap: wrap;
     }
 }
