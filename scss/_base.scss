@@ -21,7 +21,7 @@ cursive;
 @mixin textStyles($transform: uppercase) {
     font-weight: 300;
     letter-spacing: 2px;
-    text-transform: $transform;
+    text-transform: transform;
 }
 
 @mixin centering ($topValue) {

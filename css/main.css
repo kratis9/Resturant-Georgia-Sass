@@ -27,7 +27,7 @@ body {
   color: #bbb;
   font-weight: 300;
   letter-spacing: 2px;
-  text-transform: uppercase; }
+  text-transform: transform; }
 
 .sub-name {
   font-family: "Josefin Sans", sans-serif;
@@ -36,7 +36,7 @@ body {
   text-align: center;
   font-weight: 300;
   letter-spacing: 2px;
-  text-transform: uppercase; }
+  text-transform: transform; }
 
 .main-heading {
   font-family: "Dancing Script", cursive;
@@ -77,15 +77,15 @@ body {
   .card:hover .card-overlay {
     left: 0; }
   .card-overlay {
+    display: flex;
+    justify-content: center;
+    align-items: center;
     position: absolute;
     top: 0;
     left: -100%;
     background-color: rgba(211, 171, 85, 0.6);
     color: #fff;
     z-index: 10;
-    display: flex;
-    justify-content: center;
-    align-items: center;
     flex-direction: column;
     transition: left .7s; }
     .card-overlay-heading {
@@ -93,14 +93,14 @@ body {
       font-size: 50px;
       font-weight: 300;
       letter-spacing: 2px;
-      text-transform: capitalized; }
+      text-transform: transform; }
     .card-overlay-paragraph {
       font-family: "Josefin Sans", sans-serif;
       font-size: 30px;
       margin-bottom: 30px;
       font-weight: 300;
       letter-spacing: 2px;
-      text-transform: capitalized; }
+      text-transform: transform; }
     .card-overlay-btn {
       width: 150px;
       height: 40px;

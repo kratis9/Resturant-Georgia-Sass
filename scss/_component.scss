@@ -1,3 +1,4 @@
+
 .logo {
     font-size: 70px;
     color: $color-primary;
@@ -38,7 +39,6 @@
     font-weight: 300;
     color: $color-secondary;
     margin-bottom: 80px;
-
 }
 
 .main-btn {
@@ -71,17 +71,16 @@
         left: 0;
     }
 
-
     &-overlay {
+        @include flexLayout;
+        @extend %fullSpace;
         position: absolute;
         top: 0;
         left: -100%;
         background-color: rgba($color-primary, .6);
         color: $color-white;
         z-index: 10;
-        @include flexLayout;
         flex-direction: column;
-        @extend %fullSpace;
         transition: left .7s;
 
         &-heading {
